@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    padding: 1em;
+    left: 0;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    color: rgba(0,0,0,.54);
+}
+
+.head_left, .head_right, .foot_left, .foot_right{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.head_left, .foot_left {
+    justify-content: start;
+}
+
+.head_right, .foot_right {
+    justify-content: end;
+    color: #000000;
+
+}
+
+.head_left_item, .foot_left_item {
+    padding-right: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.head_right_item, .foot_right_item {
+    padding-left: 1em;
+    text-decoration: none;
+    color: #000000;
+}
+
+#sign-in {
+    display: block;
+    background:#2289da;
+    color: white; 
+    justify-content: center;
+    padding: 0.5em 1em;
+    margin: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+
+
+.form_search {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#search_bar {
+    width: 40%;
+    height: 3rem;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 2em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 25px 1fr 25px;
+    grid-template-areas: 
+    "search . mic";
+
+}
+
+#search_bar:hover {
+    box-shadow: 1px 1px 5px #e1e1e1;
+}
+
+#search {
+    grid-area: search;
+}
+
+#mic {
+    grid-area: mic;
+}
+
+.fas {
+    justify-self: center;
+    align-self: center;
+    font-size: 13px;
+    color: grey;
+}
+
+.search_input {
+    border-style: none;
+}
+
+.search_input:focus {
+    outline: none;
+}
+
+.btn_search {
+    padding: 1em;
+}
+
+.btn {
+    padding: 0.7em 1.3em; 
+    margin: 1em;
+    border: none;
+    border-radius: 0.25em;]
+    color: grey;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    padding: 1em;
+    left: 0;
+    color: #000000;
+    background-color: #f2f2f2;
+    border-color: #e4e4e4;
+    color: rgba(0,0,0,.54);
+
+}
