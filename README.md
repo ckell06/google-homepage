@@ -1,0 +1,1 @@
+One of my first html/CSS projects. It's bascially a reflection of my fumbling around the design, learning as I go. It's also an opportunity to get a better sense of GitHub...shich at the minute is a bit of a mystery to me. 
